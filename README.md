@@ -9,6 +9,9 @@
   - `python3 -m venv .venv`
   - `source .venv/bin/activate`
   - `pip install -r requirements.txt`
+  - In a terminal: `openssl rand -hex 32`
+  - Create a .env file and add:
+    `SECRET_KEY="secret_key" (copy/paste your terminal's code)`
 
 ### Configuration de l'application
 - `python manage.py migrate`
